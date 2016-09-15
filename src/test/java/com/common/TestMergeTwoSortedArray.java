@@ -1,4 +1,4 @@
-package common;
+package com.common;
 
 import com.common.MergeTwoSortedArray;
 import org.junit.Assert;
