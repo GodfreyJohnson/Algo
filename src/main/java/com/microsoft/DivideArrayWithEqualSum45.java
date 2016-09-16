@@ -25,7 +25,7 @@ public class DivideArrayWithEqualSum45 {
   }
 
   static boolean ifExsits(List<Integer> rootList, int num, int orgNum) {
-    if (rootList.size() == 0 && num == orgNum) {
+    if (num == orgNum) {
       return true;
     }
     boolean flag = false;
