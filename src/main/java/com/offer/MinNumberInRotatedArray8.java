@@ -2,10 +2,10 @@ package com.offer;
 
 public class MinNumberInRotatedArray8 {
   public int solution(int[] arr) {
-    int len = arr.length;
-    if (len <= 0) {
+    if (arr == null || arr.length <= 0) {
       return 0;
     }
+    int len = arr.length;
 
     int start = 0, end = len - 1;
     int mid = start;

@@ -23,4 +23,10 @@ public class TestMinNumberInRotatedArray8 {
     int[] arr = {1,0,1,1,1};
     Assert.assertEquals(minNum.solution(arr), 0);
   }
+
+  @Test
+  public void runTest3(){
+    int[] arr = null;
+    Assert.assertEquals(minNum.solution(arr), 0);
+  }
 }
