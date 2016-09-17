@@ -5,7 +5,7 @@ import java.math.BigInteger;
 /**
  * the range of input number
  * the result of  the generated number may overflow with integer and long,
- * so we use biginteger
+ * so we use big integer
  */
 public class PrintOneToN12 {
   public static void main(String[] args){
