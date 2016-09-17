@@ -1,5 +1,8 @@
 package com.common;
 
+/**
+ * http://www.cnblogs.com/lifegoesonitself/p/3225803.html
+ */
 public class AllComposition {
   public static void main(String[] args) {
     AllComposition ac = new AllComposition();
