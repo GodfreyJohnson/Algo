@@ -32,4 +32,11 @@ public class TestOddAndEvenSort14 {
     int[] result = {1};
     Assert.assertArrayEquals(oae.solution(array), result);
   }
+
+  @Test
+  public void run4() {
+    int[] array = {2, 4, 6, 1, 3, 5};
+    int[] result = {5, 3, 1, 6, 4, 2};
+    Assert.assertArrayEquals(oae.solution(array), result);
+  }
 }
