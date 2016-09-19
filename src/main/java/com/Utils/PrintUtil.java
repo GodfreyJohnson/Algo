@@ -56,4 +56,15 @@ public class PrintUtil {
     }
     System.out.println("End to print tree node");
   }
+
+  public static void printArrayList(List<Integer> result) {
+    System.out.println("Start to print integer list");
+    if (result == null || result.size() <= 0)
+      return;
+
+    for (int num : result) {
+      System.out.println(num);
+    }
+    System.out.println("Ends to print integer list");
+  }
 }
