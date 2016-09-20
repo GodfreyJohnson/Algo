@@ -1,5 +1,6 @@
 package com.Utils;
 
+import com.common.ComplexListNode;
 import com.common.ListNode;
 import com.common.TreeNode;
 
@@ -66,5 +67,18 @@ public class PrintUtil {
       System.out.println(num);
     }
     System.out.println("Ends to print integer list");
+  }
+
+  public static void printComplexListNode(ComplexListNode root) {
+    System.out.println("Start to print complex  list node");
+    while (root != null) {
+      System.out.println("root: " + root.val);
+      if (root.next != null)
+        System.out.println("next: " + root.next.val);
+      if (root.sibling != null)
+        System.out.println("sibling: " + root.sibling.val);
+      root = root.next;
+    }
+    System.out.println("Ends to print complex  list node");
   }
 }
