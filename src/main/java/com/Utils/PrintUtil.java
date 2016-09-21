@@ -69,6 +69,17 @@ public class PrintUtil {
     System.out.println("Ends to print integer list");
   }
 
+  public static void printStringArrayList(List<String> result) {
+    System.out.println("Start to print string list");
+    if (result == null || result.size() <= 0)
+      return;
+
+    for (String num : result) {
+      System.out.println(num);
+    }
+    System.out.println("Ends to print String list");
+  }
+
   public static void printComplexListNode(ComplexListNode root) {
     System.out.println("Start to print complex  list node");
     while (root != null) {
@@ -80,5 +91,15 @@ public class PrintUtil {
       root = root.next;
     }
     System.out.println("Ends to print complex  list node");
+  }
+
+  public static void printTreeNodeList(TreeNode result) {
+    System.out.println("Start to print tree  list node");
+    while (result != null) {
+      System.out.print(result.val + "->");
+      result = result.left;
+    }
+    System.out.println("");
+    System.out.println("End to print tree  list node");
   }
 }
