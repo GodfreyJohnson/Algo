@@ -102,4 +102,16 @@ public class PrintUtil {
     System.out.println("");
     System.out.println("End to print tree  list node");
   }
+
+  public static void printCharArray(char[] subChars) {
+    if (subChars == null || subChars.length <= 0)
+      return;
+    System.out.println("Start to print char array");
+    for (int i = 0; i < subChars.length; i++) {
+      char c = subChars[i];
+      System.out.print(c);
+    }
+    System.out.println("");
+    System.out.println("End to print char array");
+  }
 }
