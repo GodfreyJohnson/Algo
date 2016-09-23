@@ -4,7 +4,7 @@ import com.Utils.PrintUtil;
 
 public class FindKSmallNum30 {
   public int[] solution(int[] nums, int k) {
-    if (nums == null || nums.length <= 0)
+    if (nums == null || nums.length <= 0 || k <= 0)
       return nums;
     if (nums.length <= k)
       return nums;
