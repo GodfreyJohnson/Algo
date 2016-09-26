@@ -114,4 +114,16 @@ public class PrintUtil {
     System.out.println("");
     System.out.println("End to print char array");
   }
+
+  public static void printInRange(int begin, int end) {
+    if (begin > end)
+      return;
+    System.out.println("Start to print int with range");
+
+    for (int i = begin; i <= end; i++) {
+      System.out.println(i);
+    }
+
+    System.out.println("End to print int with range");
+  }
 }
