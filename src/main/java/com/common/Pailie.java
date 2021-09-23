@@ -1,6 +1,5 @@
 package com.common;
 
-import com.google.common.base.Strings;
 
 /**
  * 输出所有字符串的排列
@@ -13,7 +12,7 @@ public class Pailie {
     }
 
     private void process(String text) {
-        if (Strings.isNullOrEmpty(text)) {
+        if (text == null) {
             return;
         }
 

@@ -1,6 +1,5 @@
 package com.common;
 
-import com.google.common.base.Strings;
 
 /**
  * 输出数组所有的组合
@@ -13,7 +12,7 @@ public class Zuhe {
     }
 
     private void process(String text) {
-        if (Strings.isNullOrEmpty(text)) {
+        if (text == null) {
             return;
         }
 
